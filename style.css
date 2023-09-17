@@ -1,0 +1,160 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    height: 72px;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+    color: white;
+    justify-content: center;
+    gap: 60px;
+}
+
+.deliver{
+    display: flex;
+    flex-direction: column;
+}
+.locationIcon,.searchBar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.all{
+    background: #f3f3f3;
+    color: black;
+    width: 50px;
+    height: 40px;
+    padding-top: 12px;
+    font-size: small;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.searchBar input{
+    max-width: 600px;
+    min-width: 500px;
+    height: 40px;
+    border: none;
+    font-size: medium;
+}
+
+.searchBar .searchIcon{
+    background-color: #febd68;
+    height: 40px;
+    width: 45px;
+    padding-top: 10px;
+    border-radius: 0 4px 4px 0;
+}
+
+.cart{
+    padding-top: 20px;
+}
+
+.heading2{
+    padding: 10px 20px;
+    background: #222f3d;
+    color: #fff;
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading2 .left{
+    margin-left: 15%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.heading2 .right{
+    margin-right: 15%;
+}
+
+.advertisement img{
+    height: 400px;
+    width: 100%;
+    background-image: url("./images/advertisement.jpg");
+    background-position: center;
+    background-size: cover;   
+    
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f3f3f3;
+    padding: 50px 15% 50px 15%;
+}
+
+.cards{
+    width: 290px;
+    height: 414px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    padding:25px 0 25px 30px;
+    justify-content: space-around;
+
+}
+
+.cards:hover{
+    transform: scale(1.1);
+    transition: transform 0.7s ease-in-out;
+}
+
+.heading3{
+    background-color: #37475a;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: space-around;
+    color: rgba(255,255,255, 0.8);
+    background-color: #232f3e;
+    font-size: small;
+    padding: 20px 60px 20px 60px;
+}
+.footerContents{
+    display: flex;
+    flex-direction: column;
+}
+footer a{
+    font-size: small;
+    color:rgba(255,255,255, 0.8);
+    text-decoration: none;
+}
+footer a:hover{
+    font-size: small;
+    color:rgba(255,255,255, 0.8);
+    text-decoration: underline;
+}
+footer p{
+    font-size: medium;
+    color: white;
+    padding: 10px 0 10px 0;
+}
+
+
+
+
+
+
